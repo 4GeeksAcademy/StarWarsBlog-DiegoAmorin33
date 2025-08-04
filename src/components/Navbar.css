@@ -1,0 +1,99 @@
+.navbar {
+  background-color: #182466;
+  padding: 16px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-logo {
+  text-decoration: none;
+}
+
+.navbar-logo h1 {
+  margin: 0;
+  font-size: 1.75rem;
+  color: #ffd000;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.favorites-dropdown .btn-primary {
+  background-color: #ffee00;
+  color: #000000;
+  border: none;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.favorites-dropdown .btn-primary:hover {
+  background-color: #ffde00;
+}
+
+.favorites-dropdown .dropdown-menu {
+  background-color: #1a2a7a;
+  border: 1px solid #FFE81F;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+.favorites-dropdown .dropdown-item {
+  color: white;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.favorites-dropdown .dropdown-item:hover {
+  background-color: #25358a;
+  color: #FFE81F;
+}
+
+.favorites-dropdown .delete-btn {
+  color: #616161;
+  background: none;
+  border: none;
+  padding: 0 8px;
+  transition: color 0.2s;
+}
+
+.favorites-dropdown .delete-btn:hover {
+  color: #6d6d6d;
+}
+
+.favorites-dropdown .no-favorites {
+  color: #aaa;
+  padding: 8px 16px;
+  font-style: italic;
+}
+
+.favorites-dropdown .favorite-type {
+  color: #646252;
+  font-size: 0.8rem;
+  margin-left: 8px;
+}
+
+.Atext-decoration {
+  color: white;
+}
+
+.trash-erase-btn {
+    background-color: #ffffff;
+    color: #000;
+    font-weight: 600;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: background-color 0.2s ease;
+    text-decoration: none;
+    display: inline-block;
+  }
